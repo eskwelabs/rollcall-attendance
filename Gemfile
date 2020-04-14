@@ -61,6 +61,10 @@ gem 'jquery-rails', "~> 4.0"
 gem 'jquery-ui-rails', "~> 6.0"
 gem 'rails-backbone', "~> 0.7.2"
 
+group :production do
+  gem 'puma'
+end
+
 group :development, :test do
   gem 'byebug'
   gem 'minitest'

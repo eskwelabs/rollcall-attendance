@@ -269,6 +269,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (4.0.2)
+    puma (4.3.3)
+      nio4r (~> 2.0)
     rack (2.1.1)
     rack-protection (2.0.8.1)
       rack
@@ -490,6 +492,7 @@ DEPENDENCIES
   paul_bunyan (~> 1.5)
   pg (~> 1.0)
   phantomjs (= 1.9.7.1)
+  puma
   rack (~> 2.1)
   rails (~> 5.2.0)
   rails-backbone (~> 0.7.2)
