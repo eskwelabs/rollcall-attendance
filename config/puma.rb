@@ -1,4 +1,4 @@
-application_path = '/var/canvas'
+application_path = '/var/rollcall'
 railsenv = 'production'
 directory application_path
 environment railsenv
