@@ -86,7 +86,7 @@ class InstructureRollcall.Views.Statuses.IndexView extends Backbone.View
     @$('#student-details').html('')
     @$('#student-list').removeClass('details-open')
     @$('#student-list li').removeClass('details-active')
-    
+
   goToDate: (date) ->
     @classDate = date
     @resetClassDate()
@@ -129,8 +129,8 @@ class InstructureRollcall.Views.Statuses.IndexView extends Backbone.View
     @sectionId
 
   prettyClassDate: ->
-    day = @classDate.toString("ddd")
-    date = @classDate.toString("MMM dd")
+    day = @classDate.toLocaleDateString(undefined, { weekday: 'short' })
+    date = @classDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
     "#{day} <strong>#{date}</strong>"
 
   render: =>
