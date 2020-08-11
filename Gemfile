@@ -60,6 +60,7 @@ gem 'font-awesome-rails', '~> 4.7.0'
 gem 'jquery-rails', "~> 4.0"
 gem 'jquery-ui-rails', "~> 6.0"
 gem 'rails-backbone', "~> 0.7.2"
+gem 'dotenv'
 
 group :production do
   gem 'puma'
