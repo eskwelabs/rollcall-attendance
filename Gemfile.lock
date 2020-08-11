@@ -473,6 +473,7 @@ DEPENDENCIES
   coffee-script (= 2.2.0)
   cucumber-rails
   database_cleaner
+  dotenv
   factory_bot_rails
   font-awesome-rails (~> 4.7.0)
   guard-jasmine (~> 2.0)
